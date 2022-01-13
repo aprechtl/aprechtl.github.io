@@ -1,9 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Barksanot</title>
 <style>
 body {
   width: 600px;
+  margin: auto;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color: #000;
+  color: #CCC;
+  font-family: Arial;
+  font-size: 15px;
+}
+#logoDiv {
+  text-align: center;
+}
+a {
+  color: #BB86FC;
+  font-weight: bold;
+  text-decoration: none;
+}
+h2 {
+  color: #BB86FC;
+  text-transform: uppercase;
+  text-align: center;
+}
+h3 {
+  color: #BB86FC;
 }
 table {
   margin-left: auto;
@@ -12,6 +36,7 @@ table {
   margin-bottom: 1em;
 }
 thead {
+  color: #FFF;
   font-weight: bold;
 }
 td:first-child {
@@ -21,13 +46,11 @@ td:first-child {
 </style>
 </head>
 <body>
-<h1>Barksanot Audio Guide</h1>
-
-<p>Barksanot produces very high frequency beeps in order to discourage dogs from barking. For best results, you'll need to plug your device into an external audio amplifier and speakers, preferably tweeters or speaker boxes with tweeters inside. A portable Bluetooth speaker might work indoors or at short ranges, but a purpose designed audio system will be more effective in most cases.</p>
-
+<div id="logoDiv"><img src="logo.png" width="465" height="140"></img></div>
+<h2>Audio Guide</h2>
+<p>Barksanot produces very high frequency beeps in order to discourage dogs from barking. For best results, you'll need to plug your device into an external audio amplifier and speakers, preferably tweeters or speaker boxes with tweeters inside. A portable Bluetooth speaker might work indoors or at short ranges, but a purpose designed audio system will be more effective in most situations.</p>
 <h3>Amplifier</h3>
-
-<p>Power amplifiers are getting less and less expensive, plus they're easy to find on the used market. Just try searching the classifieds or your preferred electronics store for "power amplifier" or "audio amplifier". The power rating you'll need will depend on your specific application, but here's an estimate:
+<p>You can find all sorts of amplifiers that will be up to the task, including hi-fi, DJ, pro audio (PA), and commercial amplifiers. Just make sure it has  a flat frequency response (no guitar or bass amps), a high enough power rating, and that it can support your speaker impedance (see the following section). The power rating you'll need will depend on your specific application, but here's an estimate:
 <table>
   <thead>
   <tr>
@@ -36,12 +59,8 @@ td:first-child {
   </tr>
   </thead>
   <tr>
-    <td>10</td>
-    <td>Close quarters indoors</td>
-  </tr>
-  <tr>
     <td>10–25</td>
-    <td>Normal indoors</td>
+    <td>Indoors</td>
   </tr>
   <tr>
     <td>25–100</td>
@@ -52,35 +71,32 @@ td:first-child {
     <td>Outdoors over 50 feet away</td>
   </tr>
 </table>
-Make sure you're looking at continuous or "RMS" wattage, rather than peak wattage.
-Also note that it's good practice to oversize your amplifier so that you aren't constantly running it at its maximum power.</p>
-
-<p>You can find all sorts of amplifiers that will be up to the task, including hi-fi, DJ, pro audio (PA), and commercial amplifiers—most any except for ones that color the sound, such as guitar or bass amplifiers. Just make sure it has the desired power rating and that it can support your speaker impedance (see below).
-
+When reviewing specs, make sure you're looking at continuous or "RMS" wattage, rather than peak wattage. Also, manufacturers often cheat on their power ratings, so be sure to check reviews where possible. In any case, it's good practice to oversize your amplifier a bit for some extra volume headroom.</p>
+<p>If you're using a stereo amplifier, you can point both speakers in the same direction to (roughly) double the loudness. Alternatively, you can use them in different areas, as Barksanot allows you to separate the left and right channels.</p>
 <h3>Speakers</h3>
-
-<p>You can use regular hi-fi speakers if they have tweeters built in, or you can simply buy a set of tweeters and mount them in a manner suitable to your application. You can find tweeters that will do the job for a very low cost, typically around $10–15 a pair in the US. Take note of the following specs:
+<p>You can use regular hi-fi speakers if they have tweeters built in, or you can simply buy a set of tweeters and mount them in a manner suitable to your application. You can find tweeters that will do the job for a very low cost, typically around $10-15 a pair in the US. Take note of the following specs:
 <ul>
-    <li><i>Power rating (watts)</i>: The total number of watts the speaker can handle. Make sure the amp does not overload the speakers by pushing them too hard. The simplest way to do this is to ensure your speakers can handle more watts than the amp can provide. If the amplifier is rated higher, you can still use it as long as you don't turn it up too loud; however, it's not obvious how loud is too loud until it's too late. Also, as with the amplifier, you'll want to pay attention to continuous or "RMS" watts, not peak.</li>
-    <li><i>Impedance (ohms)</i>: The impedance of the speaker/tweeter should match one of the values listed in the amplifier specifications. Note that you can double up speakers in order to double or halve their individual impedance by wiring them in series or parallel, respectively. Doing so will also double the amount of power that can be handled. For example, if your amplifier is rated for 100 watts into 8 ohms, and you have two 4 ohm, 50 watt tweeters, you can wire the tweeters in series in order to reach 8 ohms and be able to handle the full 100 watts.
+    <li><strong>Power rating (watts)</strong>: The total number of watts the speaker can handle from the amp. As with the amp, you'll want to pay attention to continuous or "RMS" watts, not peak. The best way to protect your speakers is to ensure their power rating exceeds that of the amp. If the amp is rated higher than the speakers, you can still use them together as long as you don't turn the volume up too loud. Unfortunately however, it's not really obvious how loud is too loud until it's too late, so this is not really recommended unless you know what you're doing.</li>
+    <li><strong>Impedance (ohms)</strong>: The impedance of the speaker/tweeter should match the impedance listed in the amplifier's power specifications. Alternatively, if the amplifier doesn't support the impedance of the speaker, you can double up speakers in order to double or halve their individual impedances by wiring them in series or parallel, respectively. Doing so will also double the amount of power that can be handled. For example, if your amplifier is rated for 100 watts into 8 ohms, you can wire two 4 ohm, 50 watt tweeters in series in order to reach 8 ohms and be able to handle the full 100 watts.
 </ul>
 </p>
-
 <h3>Speaker Placement</h3>
-
 <p>Position the speakers as close to the dog as possible, facing it without obstructions. Walls, fences, and even tree leaves can block high frequencies, so a clear line of sight is important.</p>
-
-<p>As the effects of ultrasonic frequencies on humans are not well understood, <b>do not point the speakers towards any humans.</b></p>
-
+<p>Since the effects of ultrasonic frequencies on humans are not well understood, <b>do not point the speakers towards any humans.</b></p>
 <p>There are various ways to waterproof your system for outdoor use. You can purchase waterproof tweeters, but they are much more expensive than regular tweeters. With regular tweeters, you can put them in a small enclosure or even birdhouse. <a href="https://www.youtube.com/watch?v=BUx3tWnmZvs">This video</a> shows an inexpensive method that uses ABS pipes to keep rain off the tweeters.</p>
-
-<p>Keep in mind that long wires between the amp and speakers can absorb some of the signal and reduce the total output wattage. Within reason, you can get around this by purchasing thicker wire. <a href="https://www.systoncable.com/choosing-wire-gauge-ofc-audio-speaker-wire/">Here</a> is a guide to choosing speaker wire. You can alternatively use extension cords if you are handy with wiring.</p>
-
+<p>Keep in mind that long cable runs between the amp and speakers can absorb some of the signal and reduce the total output wattage. Within reason, you can get around this by purchasing thicker wire. <a href="https://www.systoncable.com/choosing-wire-gauge-ofc-audio-speaker-wire/">Here</a> is a guide to choosing speaker wire. You can alternatively use extension cords if you are handy with wiring. The good thing about extension cords is that it's easy to find ones that are rated for outdoor use.</p>
 <h3>Microphone Placement</h3>
-
-<p>The closer the microphone is to the dog, the easier it will be for Barksanot to distinguish barks from other noises. Thus, the closer you can get the microphone to the dog, the better. However, do bear in mind that wind can be an issue outdoors.</p>
-
-<p>If necessary, you can purchase an inexpensive lavalier mic to plug into your device. With foam filters they will be able to reject wind noise better tan your built-in microphone, and can be placed closer to the dog while allowing your device to remain plugged in.</p>
-
+<p>Ideally the microphone should be as close as possible to the dog so that the app can easily distinguish barks from other noises. Wind can distort the microphone outdoors, however, but this can be mitigated with a windscreen (<a href="https://www.youtube.com/watch?v=J-fiVpcYM1E">such as this DIY one</a>).</p>
+<p>If necessary, you can purchase an inexpensive lavalier mic to plug into your device, as they usually come with windscreens and are higher quality than built-in microphones. If your device has a headphone jack, there are adapters available that allow you to break out the single 3.5mm jack into two separate 3.5mm jacks, one for the amplifier and one for the microphone.</p>
+<h3>Troubleshooting</h3>
+<p>If you don't get the result you expect, check the following:
+  <ul>
+    <li>Are you pushing enough volume? Check that your Barksanot device volume is turned up, that your amplifier is turned up, and that the amplifier's power rating is sufficient for the application.</li>
+    <li>Is there anything obstructing the line of sight between the speakers and the dog? High frequencies do not pass through obstacles very well at all.</li>
+    <li>Are your tweeters working? In the Barksanot app, set the frequency to the 6 kHz test frequency to verify that they're working.</li>
+    <li>If using an adapter to break out your mobile device's audio jack into separate jacks for the audio output and the microphone input, sometimes you have to make these connections in a specific order. Try making the audio output and microphone input connections before plugging the adapter into the mobile device.</li>
+    <li>If the noise seems to agitate the dog even further, it might not be loud enough. However, consider giving it some time for the dog to learn that the noise is avoidable before turning it up louder.</li>
+  </ul>
+</p>
 </body>
 </html>
